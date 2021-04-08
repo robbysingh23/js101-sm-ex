@@ -3,3 +3,10 @@
 // times as the input number
 //
 // Name the function "finalFunction"
+const finalFunction = num => {
+  let arr = [];
+  for (let i = 0; i < num; i++) {
+    arr.push(num);
+  }
+  return arr;
+};
